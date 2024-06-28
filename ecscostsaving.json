@@ -1,0 +1,65 @@
+{
+  "region": "eu-central-1",
+  "demo": [
+    {
+      "cluster_name": "AR-ECS-X-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+    }
+  ],
+  "learngermannew": [
+    {
+      "cluster_name": "AR-ECS-U-LG-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+      }
+  ],
+  "test": [
+    {
+      "cluster_name": "AR-ECS-T-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+      }
+  ],
+  "learngerman": [
+    {
+      "cluster_name": "AR-ECS-P-LG-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+      }
+  ],
+  "uat": [
+    {
+      "cluster_name": "AR-ECS-U-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+      }
+  ],
+  "dev": [
+    {
+      "cluster_name": "AR-ECS-D-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+      }
+  ],
+  
+  "all": [
+    
+    {
+      "cluster_name": "AR-ECS-X-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+    },
+
+    {
+      "cluster_name": "AR-ECS-U-LG-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+    },
+    {
+      "cluster_name": "AR-ECS-T-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+    },
+
+    {
+      "cluster_name": "AR-ECS-U-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+    },
+    {
+      "cluster_name": "AR-ECS-D-01",
+      "service_names": ["AR-ECS-SERVICE-UI-01","AR-ECS-SERVICE-API-01"]
+    }
+  ]
+}
